@@ -144,6 +144,8 @@ public class ChatClient extends Application {
      */
     private void writeToServer() {
         try {
+            System.out.println("Writing to server");
+            System.out.println(outgoing.getText());
             printWriter.println(outgoing.getText());
             printWriter.flush();
         } catch (Exception ex) {
@@ -155,7 +157,18 @@ public class ChatClient extends Application {
      * Read from the chat servers
      */
     private void readFromServer() {
-        incoming.appendText(bufferedReader.lines().collect(Collectors.joining("")) + "\n");
+        System.out.println("Reading from server......");
+        String message = null;
+        try {
+            while ((message = bufferedReader.readLine()) != null) {
+                incoming.appendText(message + "\n");
+
+            }
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+
+
     }
 
 

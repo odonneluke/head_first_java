@@ -40,6 +40,8 @@ public class ChatServer {
 
     private void sendToAllClients(String message) {
         // Send message to each connected client
+        System.out.println("Writing to clients.....");
+        System.out.println(message);
         clientOutputStreams.forEach(writer -> {
             PrintWriter printWriter = (PrintWriter) writer;
             printWriter.println(message);
@@ -78,7 +80,16 @@ public class ChatServer {
          */
         @Override
         public void run() {
-            sendToAllClients(bufferedReader.lines().collect(Collectors.joining("")));
+            System.out.println("Reading from client");
+            String message = null;
+            try {
+                while ((message = bufferedReader.readLine()) != null) {
+                    System.out.println(message);
+                    sendToAllClients(message);
+                }
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
         }
 
     }
