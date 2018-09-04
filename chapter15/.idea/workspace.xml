@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbb5c196-3db9-4370-b3d8-1c7c11b182d7" name="Default" comment="Adding new ChatClient and ChatServer java classes. Currently not running&#10;properly - need to identify the cause of the bug ....">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chapter15/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter14/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="bbb5c196-3db9-4370-b3d8-1c7c11b182d7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chapter15/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chapter15/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chapter15/AdviceSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chapter15/AdviceSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chapter15/AdviceSlip.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chapter15/AdviceSlip.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chapter15/AdviceSlipRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chapter15/AdviceSlipRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chapter15/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chapter15/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chapter15/DailyAdviceClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chapter15/DailyAdviceClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chapter15/DailyAdviceClient$AdviceClientEventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chapter15/DailyAdviceClient$AdviceClientEventHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chapter15/DailyAdviceClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chapter15/DailyAdviceClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chapter15/DailyAdviceServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chapter15/DailyAdviceServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chapter15/Slip.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chapter15/Slip.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chapter15/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/chapter15/AppTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,10 +27,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatClient.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChatClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ChatClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1545">
+            <state relative-caret-position="197">
               <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -56,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatServer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChatServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="137">
@@ -156,10 +139,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1983" />
+    <option name="x" value="239" />
     <option name="y" value="-4" />
-    <option name="width" value="1857" />
-    <option name="height" value="1084" />
+    <option name="width" value="1855" />
+    <option name="height" value="1076" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -398,10 +381,18 @@
       <option name="presentableId" value="Default" />
       <updated>1535530560966</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding new ChatClient and ChatServer java classes. Currently not running&#10;properly - need to identify the cause of the bug ....">
+      <created>1535970265819</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535970265819</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1983" y="-4" width="1857" height="1084" extended-state="6" />
+    <frame x="63" y="-4" width="1857" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -754,16 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ChatClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ChatServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -772,6 +753,16 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1949#1950#0" expanded="true" />
             <element signature="e#2028#2029#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

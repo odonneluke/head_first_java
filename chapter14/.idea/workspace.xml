@@ -12,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter14/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -24,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BeatBox.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BeatBox.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter14/BeatBox.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-942">
@@ -118,10 +118,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="63" />
+    <option name="x" value="239" />
     <option name="y" value="-4" />
-    <option name="width" value="1857" />
-    <option name="height" value="1084" />
+    <option name="width" value="1855" />
+    <option name="height" value="1076" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -678,20 +678,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter14/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter14/BeatBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="-942">
+          <caret line="64" column="7" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter14/BeatBox.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter14/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-942">
-          <caret line="64" column="7" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
